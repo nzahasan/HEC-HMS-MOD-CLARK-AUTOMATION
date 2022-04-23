@@ -1,0 +1,15 @@
+Control: ECORR-CTL
+     Description: CONTROL FILE FOR ERROR CORR DATA
+     Last Modified Date: 2 April 2018
+     Last Modified Time: 17:22:05
+     Version: 4.2.1
+     Time Zone ID: Asia/Dhaka
+     Time Zone GMT Offset: 21600000
+     Start Date: 1 January 2008
+     Start Time: 06:00
+     End Date: 31 December 2016
+     End Time: 06:00
+     Time Interval: 1440
+     Grid Write Interval: 1440
+     Grid Write Time Shift: 0
+End:

@@ -1,0 +1,49 @@
+Project: BRAHMA_MOD_CLARK
+     Description: BRAHMAPUTRA HYDROLOGIC MODEL(MODIFIED CLARK)
+     Version: 4.2.1
+     Filepath Separator: /
+     DSS File Name: BRAHMA_MOD_CLARK.dss
+     Time Zone ID: Asia/Dhaka
+End:
+
+Precipitation: CALIBRATION_VALIDATION
+     Filename: CALIBRATION_VALIDATION.met
+     Description: CALIBRATION AND VALIDATION MET MODEL
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:54
+End:
+
+Precipitation: FORECAST
+     Filename: FORECAST.met
+     Description: FORECAST MET MODEL
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:54
+End:
+
+Basin: BRAHMA_MOD_CLARK
+     Filename: BRAHMA_MOD_CLARK.basin
+     Description: MODIFIED CLARK BASIN MODEL FILE
+     Last Modified Date: 5 January 2018
+     Last Modified Time: 17:04
+End:
+
+Control: CALIBRATION-CTL
+     FileName: CALIBRATION_CTL.control
+     Description: CONTROL-CALIBRATION
+End:
+
+Control: ECORR-CTL
+     FileName: ECORR_CTL.control
+     Description: CONTROL FILE FOR ERROR CORR DATA
+End:
+
+Control: FORECAST-CTL
+     FileName: FORECAST_CTL.control
+     Description: CTL FILE FOR FORECAST WITH ECMWF 51 ENS PRECIPITATION
+End:
+
+Control: VALIDATION-CTL
+     FileName: VALIDATION_CTL.control
+     Description: CTL FILE FOR VALIDATION RUN
+End:
+

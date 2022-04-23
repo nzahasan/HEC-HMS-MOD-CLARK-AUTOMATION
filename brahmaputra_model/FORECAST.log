@@ -1,0 +1,8 @@
+NOTE 15301:  Began computing simulation run "FORECAST" at time 18Jul2018, 19:24:12.
+NOTE 10181:  Opened control specifications "FORECAST-CTL" at time 18Jul2018, 19:24:12.
+NOTE 20364:  Found no parameter problems in meteorologic model "FORECAST".
+NOTE 40049:  Found no parameter problems in basin model "BRAHMA_MOD_CLARK".
+WARNING 40012:  Could not compute observed flow for element "BAHADURABAD".
+WARNING 40012:  Could not compute observed flow for element "BAHADURABAD".
+WARNING 40013:  Could not compute residual flow for element "BAHADURABAD".
+NOTE 15302:  Finished computing simulation run "FORECAST" at time 18Jul2018, 19:24:14.

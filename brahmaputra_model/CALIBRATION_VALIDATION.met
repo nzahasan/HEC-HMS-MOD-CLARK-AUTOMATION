@@ -1,0 +1,50 @@
+Meteorology: CALIBRATION_VALIDATION
+     Description: CALIBRATION AND VALIDATION MET MODEL
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:07:56
+     Version: 4.2.1
+     Unit System: Metric
+     Set Missing Data to Default: No
+     Precipitation Method: Gridded Precipitation
+     Short-Wave Radiation Method: None
+     Long-Wave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: No Evapotranspiration
+     Use Basin Model: BRAHMA_MOD_CLARK
+End:
+
+Precip Method Parameters: Gridded Precipitation
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:54:50
+     Precip Grid Name: CPC-Rainfall-Data
+End:
+
+Subbasin: W730
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:04:52
+     Vapor Pressure Type: Relative Humidity
+End:
+
+Subbasin: W840
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:04:52
+     Vapor Pressure Type: Relative Humidity
+End:
+
+Subbasin: W1060
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:04:52
+     Vapor Pressure Type: Relative Humidity
+End:
+
+Subbasin: W1290
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:04:52
+     Vapor Pressure Type: Relative Humidity
+End:
+
+Subbasin: W1520
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:04:52
+     Vapor Pressure Type: Relative Humidity
+End:

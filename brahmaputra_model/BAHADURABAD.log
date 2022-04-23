@@ -1,0 +1,267 @@
+NOTE 15351:  Began computing optimization trial "BAHADURABAD" at time 02Jan2018, 23:38:23.
+NOTE 20364:  Found no parameter problems in meteorologic model "CALIBRATION_VALIDATION".
+NOTE 40049:  Found no parameter problems in basin model "BRAHMA_MOD_CLARK".
+NOTE 40552:  Grid cell file contained 7 invalid cells for subbasin "W1520".  Lost area equals 0.05 KM2
+NOTE 40552:  Grid cell file contained 5 invalid cells for subbasin "W1060".  Lost area equals 0.04 KM2
+NOTE 40552:  Grid cell file contained 6 invalid cells for subbasin "W1290".  Lost area equals 0.03 KM2
+NOTE 40552:  Grid cell file contained 11 invalid cells for subbasin "W840".  Lost area equals 0.1 KM2
+NOTE 40552:  Grid cell file contained 5 invalid cells for subbasin "W730".  Lost area equals 0.02 KM2
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  614 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,634,359.8707
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  350 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,109,145.5676
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  410 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -43,764,012.7919
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  303 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -32,500,686.0242
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  440 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,970.3505
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  457 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,337,552.6548
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  428 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,853,930.9337
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  312 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -34,386,744.9206
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,395,327.2659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,495,979.9841
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,570,954.5763
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,088,451.0618
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,392,235.1464
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,497,953.3727
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,569,239.4473
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,099,150.589
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  363 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,396,008.1293
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,498,015.7659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,565,863.1294
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  421 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -862,158.7364
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  529 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,414,287.507
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  413 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,595,250.0925
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,508,431.4766
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,395,327.2659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,495,979.9841
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,570,954.5763
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  165 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -883,110.2248
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  419 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -48,845,993.1403
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -32,785,401.8675
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,395,327.2659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,495,979.9841
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,570,954.5763
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  360 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,323,929.731
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,474,598.5068
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,571,737.6995
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  360 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,352,859.765
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,501,594.5233
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,575,114.0095
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  291 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -2,161,223.6201
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  407 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,644,597.1339
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  308 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,364,024.4261
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  516 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -6,627,110.5738
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  403 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,688,512.3441
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  306 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -32,389,766.2831
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,395,327.2659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  403 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -42,513,941.1797
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  264 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -26,892,510.4682
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,395,327.2659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  414 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -44,495,979.9841
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,570,954.5763
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R1430".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R1430".
+WARNING 41201:  427 negative inflows to element "J366" set to zero.
+     Equivalent volume (cu m): -1,098,118.3546
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R400".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R400".
+WARNING 41201:  361 negative inflows to element "J371" set to zero.
+     Equivalent volume (cu m): -3,395,327.2659
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R510".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R510".
+WARNING 41201:  413 negative inflows to element "J374" set to zero.
+     Equivalent volume (cu m): -43,813,909.7264
+WARNING 41166:  Control specifications time step exceeds Muskingum K for reach "R630".
+WARNING 41169:  Muskingum routing is unstable with the given parameters for reach "R630".
+WARNING 41201:  309 negative inflows to element "BAHADURABAD" set to zero.
+     Equivalent volume (cu m): -33,329,076.1482
+NOTE 15250:  Simulation "BAHADURABAD" canceled by user.
+NOTE 40446:  Compute stopped by user.
+WARNING 15353:  Aborted optimization trial "BAHADURABAD" at time 02Jan2018, 23:40:38.

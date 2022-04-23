@@ -1,0 +1,38 @@
+Grid Manager: BRAHMA_MOD_CLARK
+     Version: 4.2.1
+     Filepath Separator: /
+End:
+
+Grid: CPC-Rainfall-Data
+     Grid Type: Precipitation
+     Description: CPC precipitation data for calibration and validation
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 18:22:29
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 3 January 2018
+       Last Variant Modified Time: 18:22:29
+       Default Variant: Yes
+       DSS File Name: /home/nazmul/ModelWOrk/MOD-CLARK/DATA/DSS/CPC-RAINFALL/CPC-RAINFALL.dss
+       DSS Pathname: /SHG10K/BRAHMAPUTRA/PRECIP/31MAR2000:0600/01APR2000:0600/CPC/
+     End Variant: Variant-1
+End:
+
+Grid: CPC-ECMWF
+     Grid Type: Precipitation
+     Description: CPC+15DAY ECMWF FORECAST DATA
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:54:13
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 3 January 2018
+       Last Variant Modified Time: 17:54:13
+       Default Variant: Yes
+       DSS File Name: /home/nazmul/ModelWOrk/MOD-CLARK/DATA/DSS/CPC-ECMWF/20180718/20180718-CPC-EC-EN-50.dss
+       DSS Pathname: /SHG10K/BRAHMAPUTRA/PRECIP/01JAN:0600/02JAN2018:0600/CPC-EC/
+     End Variant: Variant-1
+End:

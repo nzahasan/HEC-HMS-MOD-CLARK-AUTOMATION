@@ -1,0 +1,14 @@
+    -----DSS---ZOPEN:  Existing File Opened,  File: /home/nazmul/Workdir/NEW_MODEL/CPC-RAINFALL.dss
+                       Unit:   75;  DSS Versions - Software: 6-WE, File: 6-WE
+    -----DSS---ZCLOSE Unit:   71,   File: /home/nazmul/Workdir/NEW_MODEL/brahmaputra_model/CALIBRATION.dss
+               Pointer Utilization:  0.31
+               Number of Records:    376
+               File Size:   1377.5  Kbytes
+               Percent Inactive:   0.0
+
+    -----DSS---ZCLOSE Unit:   72,   File: /home/nazmul/Workdir/NEW_MODEL/brahmaputra_model/VALIDATION.dss
+               Pointer Utilization:  0.27
+               Number of Records:    225
+               File Size:    846.6  Kbytes
+               Percent Inactive:   0.0
+

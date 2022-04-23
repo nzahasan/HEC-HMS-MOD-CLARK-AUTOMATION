@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RunResults>
+  <RunName>FORECAST</RunName>
+  <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+  <StartTime>02Jan2018, 06:00</StartTime>
+  <EndTime>02Aug2018, 06:00</EndTime>
+  <BasinElement name="W840" type="Subbasin">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <SubbasinArea area="111382" units="KM2" />
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="111382" units="KM2" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Incremental Precip" displayString="Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/PRECIP-INC//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Precip" displayString="Cumulative Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/PRECIP-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Infiltration" displayString="Soil Infiltration" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/INFILTRATION//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Excess" displayString="Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/PRECIP-EXCESS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Excess" displayString="Cumulative Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/PRECIP-EXCESS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Loss" displayString="Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/PRECIP-LOSS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Loss" displayString="Cumulative Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/PRECIP-LOSS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Direct Runoff" displayString="Direct Runoff" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/FLOW-DIRECT//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Baseflow" displayString="Baseflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W840/FLOW-BASE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="10969.1915663" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="28227065351.4256480" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="253.4257362" units="MM" />
+      <StatisticMeasure type="Direct Flow Minimum" displayString="Minimum Direct Flow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Minimum Time" displayString="Time of Minimum Direct Flow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Maximum" displayString="Maximum Direct Flow" value="10969.1915663" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Maximum Time" displayString="Time of Maximum Direct Flow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Volume" displayString="Direct Flow Volume" value="28227065351.4256480" units="M3" />
+      <StatisticMeasure type="Direct Flow Depth" displayString="Direct Flow Depth" value="253.4257362" units="MM" />
+      <StatisticMeasure type="Baseflow Minimum" displayString="Minimum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Minimum Time" displayString="Time of Minimum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Maximum" displayString="Maximum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Maximum Time" displayString="Time of Maximum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Volume" displayString="Baseflow Volume" value="0.0000000" units="M3" />
+      <StatisticMeasure type="Baseflow Depth" displayString="Baseflow Depth" value="0.0000000" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum" displayString="Maximum Precipitation" value="20.3889161" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum Time" displayString="Time of Maximum Precipitation" value="11Jul2018, 06:00" />
+      <StatisticMeasure type="Precipitation Total" displayString="Precipitation Total" value="371.8767204" units="MM" />
+      <StatisticMeasure type="Precipitation Volume" displayString="Precipitation Volume" value="41420372873.1476600" units="M3" />
+      <StatisticMeasure type="Loss Maximum" displayString="Maximum Loss" value="1.3125574" units="MM" />
+      <StatisticMeasure type="Loss Maximum Time" displayString="Time of Maximum Loss" value="14Feb2018, 06:00" />
+      <StatisticMeasure type="Loss Total" displayString="Loss Total" value="83.1274025" units="MM" />
+      <StatisticMeasure type="Loss Volume" displayString="Could not find requested resource: STAT_LossVolume_Label" value="9258896346.4169480" units="M3" />
+      <StatisticMeasure type="Excess Maximum" displayString="Maximum Excess" value="19.4197963" units="MM" />
+      <StatisticMeasure type="Excess Maximum Time" displayString="Time of Maximum Excess" value="11Jul2018, 06:00" />
+      <StatisticMeasure type="Excess Total" displayString="Excess Total" value="288.7493179" units="MM" />
+      <StatisticMeasure type="Excess Volume" displayString="Could not find requested resource: STAT_ExcessVolume_Label" value="32161476526.7307240" units="M3" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="J377" type="Junction">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="111382" units="KM2" />
+    <FlowLink upstreamName="W840" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J377/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J377/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="10969.1915663" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="28227065351.4256480" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="253.4257362" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="10969.1915663" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="28227065351.4256480" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="253.4257362" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="R1430" type="Reach">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="111382" units="KM2" />
+    <FlowLink upstreamName="J377" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R1430/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R1430/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="10969.1915663" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="28227065351.4256480" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="253.4257362" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="9113.8819649" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="23Jul2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="25877726162.4778600" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="232.3331073" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="W730" type="Subbasin">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <SubbasinArea area="95058" units="KM2" />
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="95058" units="KM2" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Incremental Precip" displayString="Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/PRECIP-INC//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Precip" displayString="Cumulative Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/PRECIP-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Infiltration" displayString="Soil Infiltration" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/INFILTRATION//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Excess" displayString="Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/PRECIP-EXCESS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Excess" displayString="Cumulative Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/PRECIP-EXCESS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Loss" displayString="Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/PRECIP-LOSS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Loss" displayString="Cumulative Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/PRECIP-LOSS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Direct Runoff" displayString="Direct Runoff" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/FLOW-DIRECT//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Baseflow" displayString="Baseflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W730/FLOW-BASE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="7745.3454207" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="15Jul2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="16131070886.1058900" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="169.6971416" units="MM" />
+      <StatisticMeasure type="Direct Flow Minimum" displayString="Minimum Direct Flow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Minimum Time" displayString="Time of Minimum Direct Flow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Maximum" displayString="Maximum Direct Flow" value="7745.3454207" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Maximum Time" displayString="Time of Maximum Direct Flow" value="15Jul2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Volume" displayString="Direct Flow Volume" value="16131070886.1058900" units="M3" />
+      <StatisticMeasure type="Direct Flow Depth" displayString="Direct Flow Depth" value="169.6971416" units="MM" />
+      <StatisticMeasure type="Baseflow Minimum" displayString="Minimum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Minimum Time" displayString="Time of Minimum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Maximum" displayString="Maximum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Maximum Time" displayString="Time of Maximum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Volume" displayString="Baseflow Volume" value="0.0000000" units="M3" />
+      <StatisticMeasure type="Baseflow Depth" displayString="Baseflow Depth" value="0.0000000" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum" displayString="Maximum Precipitation" value="16.6467536" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum Time" displayString="Time of Maximum Precipitation" value="09Jul2018, 06:00" />
+      <StatisticMeasure type="Precipitation Total" displayString="Precipitation Total" value="356.2049815" units="MM" />
+      <StatisticMeasure type="Precipitation Volume" displayString="Precipitation Volume" value="33860133133.8009260" units="M3" />
+      <StatisticMeasure type="Loss Maximum" displayString="Maximum Loss" value="2.3229624" units="MM" />
+      <StatisticMeasure type="Loss Maximum Time" displayString="Time of Maximum Loss" value="09Jul2018, 06:00" />
+      <StatisticMeasure type="Loss Total" displayString="Loss Total" value="152.5793238" units="MM" />
+      <StatisticMeasure type="Loss Volume" displayString="Could not find requested resource: STAT_LossVolume_Label" value="14503885362.4743860" units="M3" />
+      <StatisticMeasure type="Excess Maximum" displayString="Maximum Excess" value="14.3237912" units="MM" />
+      <StatisticMeasure type="Excess Maximum Time" displayString="Time of Maximum Excess" value="09Jul2018, 06:00" />
+      <StatisticMeasure type="Excess Total" displayString="Excess Total" value="203.6256577" units="MM" />
+      <StatisticMeasure type="Excess Volume" displayString="Could not find requested resource: STAT_ExcessVolume_Label" value="19356247771.3265270" units="M3" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="J366" type="Junction">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="206440" units="KM2" />
+    <FlowLink upstreamName="R1430" />
+    <FlowLink upstreamName="W730" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J366/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J366/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="15191.4009730" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="21Jul2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="42008797048.5837400" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="203.4915571" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="15191.4009730" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="21Jul2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="42008797048.5837400" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="203.4915571" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="R400" type="Reach">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="206440" units="KM2" />
+    <FlowLink upstreamName="J366" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R400/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R400/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="15191.4009730" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="21Jul2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="42008797048.5837400" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="203.4915571" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="14852.0511864" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="23Jul2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="40440846121.4765500" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="195.8963676" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="W1290" type="Subbasin">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <SubbasinArea area="150345" units="KM2" />
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="150345" units="KM2" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Incremental Precip" displayString="Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/PRECIP-INC//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Precip" displayString="Cumulative Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/PRECIP-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Infiltration" displayString="Soil Infiltration" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/INFILTRATION//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Excess" displayString="Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/PRECIP-EXCESS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Excess" displayString="Cumulative Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/PRECIP-EXCESS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Loss" displayString="Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/PRECIP-LOSS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Loss" displayString="Cumulative Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/PRECIP-LOSS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Direct Runoff" displayString="Direct Runoff" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/FLOW-DIRECT//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Baseflow" displayString="Baseflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1290/FLOW-BASE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="32378.5180189" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="30Jul2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="100102390814.9179400" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="665.8178910" units="MM" />
+      <StatisticMeasure type="Direct Flow Minimum" displayString="Minimum Direct Flow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Minimum Time" displayString="Time of Minimum Direct Flow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Maximum" displayString="Maximum Direct Flow" value="32378.5180189" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Maximum Time" displayString="Time of Maximum Direct Flow" value="30Jul2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Volume" displayString="Direct Flow Volume" value="100102390814.9179400" units="M3" />
+      <StatisticMeasure type="Direct Flow Depth" displayString="Direct Flow Depth" value="665.8178910" units="MM" />
+      <StatisticMeasure type="Baseflow Minimum" displayString="Minimum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Minimum Time" displayString="Time of Minimum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Maximum" displayString="Maximum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Maximum Time" displayString="Time of Maximum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Volume" displayString="Baseflow Volume" value="0.0000000" units="M3" />
+      <StatisticMeasure type="Baseflow Depth" displayString="Baseflow Depth" value="0.0000000" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum" displayString="Maximum Precipitation" value="33.5022177" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum Time" displayString="Time of Maximum Precipitation" value="28Jul2018, 06:00" />
+      <StatisticMeasure type="Precipitation Total" displayString="Precipitation Total" value="971.7088252" units="MM" />
+      <StatisticMeasure type="Precipitation Volume" displayString="Precipitation Volume" value="146091563332.0054300" units="M3" />
+      <StatisticMeasure type="Loss Maximum" displayString="Maximum Loss" value="2.4000000" units="MM" />
+      <StatisticMeasure type="Loss Maximum Time" displayString="Time of Maximum Loss" value="09Jul2018, 06:00" />
+      <StatisticMeasure type="Loss Total" displayString="Loss Total" value="235.9385241" units="MM" />
+      <StatisticMeasure type="Loss Volume" displayString="Could not find requested resource: STAT_LossVolume_Label" value="35472177403.5256300" units="M3" />
+      <StatisticMeasure type="Excess Maximum" displayString="Maximum Excess" value="31.1023250" units="MM" />
+      <StatisticMeasure type="Excess Maximum Time" displayString="Time of Maximum Excess" value="28Jul2018, 06:00" />
+      <StatisticMeasure type="Excess Total" displayString="Excess Total" value="735.7703012" units="MM" />
+      <StatisticMeasure type="Excess Volume" displayString="Could not find requested resource: STAT_ExcessVolume_Label" value="110619385928.4798100" units="M3" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="J371" type="Junction">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="356785" units="KM2" />
+    <FlowLink upstreamName="R400" />
+    <FlowLink upstreamName="W1290" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J371/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J371/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="42728.7850730" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="30Jul2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="140543236936.3944700" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="393.9157670" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="42728.7850730" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="30Jul2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="140543236936.3944700" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="393.9157670" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="R510" type="Reach">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="356785" units="KM2" />
+    <FlowLink upstreamName="J371" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R510/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R510/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="42728.7850730" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="30Jul2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="140543236936.3944700" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="393.9157670" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="39509.0407107" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="01Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="132281640777.7422300" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="370.7600958" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="W1060" type="Subbasin">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <SubbasinArea area="98659" units="KM2" />
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="98659" units="KM2" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Incremental Precip" displayString="Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/PRECIP-INC//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Precip" displayString="Cumulative Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/PRECIP-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Infiltration" displayString="Soil Infiltration" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/INFILTRATION//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Excess" displayString="Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/PRECIP-EXCESS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Excess" displayString="Cumulative Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/PRECIP-EXCESS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Loss" displayString="Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/PRECIP-LOSS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Loss" displayString="Cumulative Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/PRECIP-LOSS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Direct Runoff" displayString="Direct Runoff" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/FLOW-DIRECT//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Baseflow" displayString="Baseflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1060/FLOW-BASE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="12961.7481067" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="49349045373.1304240" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="500.1981104" units="MM" />
+      <StatisticMeasure type="Direct Flow Minimum" displayString="Minimum Direct Flow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Minimum Time" displayString="Time of Minimum Direct Flow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Maximum" displayString="Maximum Direct Flow" value="12961.7481067" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Maximum Time" displayString="Time of Maximum Direct Flow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Volume" displayString="Direct Flow Volume" value="49349045373.1304240" units="M3" />
+      <StatisticMeasure type="Direct Flow Depth" displayString="Direct Flow Depth" value="500.1981104" units="MM" />
+      <StatisticMeasure type="Baseflow Minimum" displayString="Minimum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Minimum Time" displayString="Time of Minimum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Maximum" displayString="Maximum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Maximum Time" displayString="Time of Maximum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Volume" displayString="Baseflow Volume" value="0.0000000" units="M3" />
+      <StatisticMeasure type="Baseflow Depth" displayString="Baseflow Depth" value="0.0000000" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum" displayString="Maximum Precipitation" value="48.2440138" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum Time" displayString="Time of Maximum Precipitation" value="29Jul2018, 06:00" />
+      <StatisticMeasure type="Precipitation Total" displayString="Precipitation Total" value="1045.5416249" units="MM" />
+      <StatisticMeasure type="Precipitation Volume" displayString="Precipitation Volume" value="103152091168.0916400" units="M3" />
+      <StatisticMeasure type="Loss Maximum" displayString="Maximum Loss" value="3.5264319" units="MM" />
+      <StatisticMeasure type="Loss Maximum Time" displayString="Time of Maximum Loss" value="03Mar2018, 06:00" />
+      <StatisticMeasure type="Loss Total" displayString="Loss Total" value="318.2603727" units="MM" />
+      <StatisticMeasure type="Loss Volume" displayString="Could not find requested resource: STAT_LossVolume_Label" value="31399250108.9933660" units="M3" />
+      <StatisticMeasure type="Excess Maximum" displayString="Maximum Excess" value="44.7594538" units="MM" />
+      <StatisticMeasure type="Excess Maximum Time" displayString="Time of Maximum Excess" value="29Jul2018, 06:00" />
+      <StatisticMeasure type="Excess Total" displayString="Excess Total" value="727.2812522" units="MM" />
+      <StatisticMeasure type="Excess Volume" displayString="Could not find requested resource: STAT_ExcessVolume_Label" value="71752841059.0982500" units="M3" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="J374" type="Junction">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="455444" units="KM2" />
+    <FlowLink upstreamName="R510" />
+    <FlowLink upstreamName="W1060" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J374/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//J374/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="52366.6244466" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="181630686150.8726500" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="398.7991633" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="52366.6244466" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="181630686150.8726500" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="398.7991633" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="R630" type="Reach">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="455444" units="KM2" />
+    <FlowLink upstreamName="J374" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R630/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//R630/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="52366.6244466" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="181630686150.8726500" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="398.7991633" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="38864.0966833" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="167216245584.8145800" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="367.1499582" units="MM" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="W1520" type="Subbasin">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <SubbasinArea area="61095" units="KM2" />
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>No</IsComputationPoint>
+    <DrainageArea area="61095" units="KM2" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Incremental Precip" displayString="Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/PRECIP-INC//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Precip" displayString="Cumulative Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/PRECIP-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Infiltration" displayString="Soil Infiltration" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/INFILTRATION//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Excess" displayString="Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/PRECIP-EXCESS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Excess" displayString="Cumulative Excess Precipitation" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/PRECIP-EXCESS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Precip Loss" displayString="Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/PRECIP-LOSS//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Cumulative Loss" displayString="Cumulative Precipitation Loss" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/PRECIP-LOSS-CUM//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Direct Runoff" displayString="Direct Runoff" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/FLOW-DIRECT//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Baseflow" displayString="Baseflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//W1520/FLOW-BASE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="16319.9836674" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="51406724015.5274100" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="841.4227681" units="MM" />
+      <StatisticMeasure type="Direct Flow Minimum" displayString="Minimum Direct Flow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Minimum Time" displayString="Time of Minimum Direct Flow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Maximum" displayString="Maximum Direct Flow" value="16319.9836674" units="M3/S" />
+      <StatisticMeasure type="Direct Flow Maximum Time" displayString="Time of Maximum Direct Flow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Direct Flow Volume" displayString="Direct Flow Volume" value="51406724015.5274100" units="M3" />
+      <StatisticMeasure type="Direct Flow Depth" displayString="Direct Flow Depth" value="841.4227681" units="MM" />
+      <StatisticMeasure type="Baseflow Minimum" displayString="Minimum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Minimum Time" displayString="Time of Minimum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Maximum" displayString="Maximum Baseflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Baseflow Maximum Time" displayString="Time of Maximum Baseflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Baseflow Volume" displayString="Baseflow Volume" value="0.0000000" units="M3" />
+      <StatisticMeasure type="Baseflow Depth" displayString="Baseflow Depth" value="0.0000000" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum" displayString="Maximum Precipitation" value="82.5909040" units="MM" />
+      <StatisticMeasure type="Precipitation Maximum Time" displayString="Time of Maximum Precipitation" value="31Jul2018, 06:00" />
+      <StatisticMeasure type="Precipitation Total" displayString="Precipitation Total" value="1430.2149972" units="MM" />
+      <StatisticMeasure type="Precipitation Volume" displayString="Precipitation Volume" value="87378985252.5722200" units="M3" />
+      <StatisticMeasure type="Loss Maximum" displayString="Maximum Loss" value="3.4845600" units="MM" />
+      <StatisticMeasure type="Loss Maximum Time" displayString="Time of Maximum Loss" value="16Jun2018, 06:00" />
+      <StatisticMeasure type="Loss Total" displayString="Loss Total" value="359.4128314" units="MM" />
+      <StatisticMeasure type="Loss Volume" displayString="Could not find requested resource: STAT_LossVolume_Label" value="21958326936.1493100" units="M3" />
+      <StatisticMeasure type="Excess Maximum" displayString="Maximum Excess" value="79.1063440" units="MM" />
+      <StatisticMeasure type="Excess Maximum Time" displayString="Time of Maximum Excess" value="31Jul2018, 06:00" />
+      <StatisticMeasure type="Excess Total" displayString="Excess Total" value="1070.8021657" units="MM" />
+      <StatisticMeasure type="Excess Volume" displayString="Could not find requested resource: STAT_ExcessVolume_Label" value="65420658316.4229400" units="M3" />
+    </Statistics>
+  </BasinElement>
+  <BasinElement name="BAHADURABAD" type="Sink">
+    <ExecutionTime>18Jul2018, 13:24:12</ExecutionTime>
+    <UnitSystem>SI</UnitSystem>
+    <IsComputationPoint>Yes</IsComputationPoint>
+    <DrainageArea area="516539" units="KM2" />
+    <ObservedFlowGage name="Q-BAHADURABAD" />
+    <FlowLink upstreamName="R630" />
+    <FlowLink upstreamName="W1520" />
+    <Hydrology>
+      <TimeSeries>
+        <TimeSeriesType type="Outflow" displayString="Outflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//BAHADURABAD/FLOW//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+      <TimeSeries>
+        <TimeSeriesType type="Combined Inflow" displayString="Combined Inflow" />
+        <DssFileName>FORECAST.dss</DssFileName>
+        <DssPathname>//BAHADURABAD/FLOW-COMBINE//1DAY/RUN:FORECAST/</DssPathname>
+      </TimeSeries>
+    </Hydrology>
+    <Sediment />
+    <WaterQuality />
+    <Statistics>
+      <StatisticMeasure type="Inflow Minimum" displayString="Minimum Inflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Inflow Minimum Time" displayString="Time of Minimum Inflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Inflow Maximum" displayString="Maximum Inflow" value="55184.0803507" units="M3/S" />
+      <StatisticMeasure type="Inflow Maximum Time" displayString="Time of Maximum Inflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Inflow Volume" displayString="Inflow Volume" value="218622969600.3420400" units="M3" />
+      <StatisticMeasure type="Inflow Depth" displayString="Inflow Depth" value="423.2458142" units="MM" />
+      <StatisticMeasure type="Outflow Minimum" displayString="Minimum Outflow" value="0.0000000" units="M3/S" />
+      <StatisticMeasure type="Outflow Minimum Time" displayString="Time of Minimum Outflow" value="02Jan2018, 06:00" />
+      <StatisticMeasure type="Outflow Maximum" displayString="Maximum Outflow" value="55184.0803507" units="M3/S" />
+      <StatisticMeasure type="Outflow Maximum Time" displayString="Time of Maximum Outflow" value="02Aug2018, 06:00" />
+      <StatisticMeasure type="Outflow Volume" displayString="Outflow Volume" value="218622969600.3420400" units="M3" />
+      <StatisticMeasure type="Outflow Depth" displayString="Outflow Depth" value="423.2458142" units="MM" />
+    </Statistics>
+  </BasinElement>
+</RunResults>
+

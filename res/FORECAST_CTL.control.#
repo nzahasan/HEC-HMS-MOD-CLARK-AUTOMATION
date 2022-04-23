@@ -1,0 +1,15 @@
+Control: FORECAST-CTL
+     Description: CTL FILE FOR FORECAST WITH ECMWF 51 ENS PRECIPITATION
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:53:15
+     Version: 4.2.1
+     Time Zone ID: Asia/Dhaka
+     Time Zone GMT Offset: 21600000
+     Start Date: <:_start-date_:>
+     Start Time: 06:00
+     End Date: <:_end-date_:>
+     End Time: 06:00
+     Time Interval: 1440
+     Grid Write Interval: 1440
+     Grid Write Time Shift: 0
+End:

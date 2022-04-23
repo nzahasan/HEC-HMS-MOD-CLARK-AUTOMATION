@@ -1,0 +1,293 @@
+Trial Name: TRIAL-BAHADURABAD
+     Description: 
+     Location: BAHADURABAD
+     Version: 4.2.1
+     Filepath Separator: /
+     Optimizer File: TRIAL_BAHADURABAD.optim
+     DSS File: TRIAL_BAHADURABAD.dss
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 18:07:27
+     Last Execution Date: 3 January 2018
+     Last Execution Time: 14:04:24
+
+     Basin Name: BRAHMA_MOD_CLARK
+     Met Name: CALIBRATION_VALIDATION
+
+     Simulation Start Date: 1 January 2010
+     Simulation Start Time: 06:00
+
+     Simulation End Date: 1 January 2014
+     Simulation End Time: 06:00
+
+     Simulation Time Interval: 1440
+     Simulation Time Zone: Asia/Dhaka
+End: 
+
+Search Method: Univariate Gradient
+     Search Tolerance: 0.01
+     Maximum Iterations: 100
+End:
+
+Objective Function: Sum of Squared Residuals
+     Start Date: 1 January 2010
+     Start Time: 06:00
+     End Date: 1 January 2014
+     End Time: 06:00
+     Percent Missing Allowed: 0
+End:
+
+Optimize Location: BAHADURABAD
+     Objective Function Value: 50602650790.06
+
+     Component: R1430
+     Parameter: Muskingum K
+     Initial Value: 78.4
+     Minimum Constraint: 0.1
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 150.00
+     Sensitivity: -0.02
+
+     Component: R1430
+     Parameter: Muskingum x
+     Initial Value: 0.147
+     Minimum Constraint: 0.001
+     Maximum Constraint: 0.5000
+     Locked: No
+     Optimized Value: 0.13836
+     Sensitivity: 0.00
+
+     Component: R400
+     Parameter: Muskingum K
+     Initial Value: 100
+     Minimum Constraint: 0.1
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 43.556
+     Sensitivity: 0.01
+
+     Component: R400
+     Parameter: Muskingum x
+     Initial Value: 0.01
+     Minimum Constraint: 0.001
+     Maximum Constraint: 0.5000
+     Locked: No
+     Optimized Value: 0.0042684
+     Sensitivity: 0.00
+
+     Component: R510
+     Parameter: Muskingum K
+     Initial Value: 60.000
+     Minimum Constraint: 0.1
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 56.472
+     Sensitivity: 0.05
+
+     Component: R510
+     Parameter: Muskingum x
+     Initial Value: 0.19600
+     Minimum Constraint: 0.00100
+     Maximum Constraint: 0.50000
+     Locked: No
+     Optimized Value: 0.18447
+     Sensitivity: 0.01
+
+     Component: R630
+     Parameter: Muskingum K
+     Initial Value: 90.429
+     Minimum Constraint: 0.1
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 87.173
+     Sensitivity: 0.01
+
+     Component: R630
+     Parameter: Muskingum x
+     Initial Value: 0.14700
+     Minimum Constraint: 0.00100
+     Maximum Constraint: 0.50000
+     Locked: No
+     Optimized Value: 0.13836
+     Sensitivity: 0.01
+
+     Component: W1060
+     Parameter: Constant Loss Rate
+     Initial Value: 0.14519
+     Minimum Constraint: 0.00100
+     Maximum Constraint: 300.00000
+     Locked: No
+     Optimized Value: 0.14694
+     Sensitivity: -0.01
+
+     Component: W1060
+     Parameter: Initial Loss
+     Initial Value: 4.5000
+     Minimum Constraint: 0.0010
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 6.4827
+     Sensitivity: 0.00
+
+     Component: W1060
+     Parameter: Storage Coefficient
+     Initial Value: 50.249
+     Minimum Constraint: 0.01
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 76.123
+     Sensitivity: -0.07
+
+     Component: W1060
+     Parameter: Time of Concentration
+     Initial Value: 300.00
+     Minimum Constraint: 0.1
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 454.44
+     Sensitivity: -0.20
+
+     Component: W1290
+     Parameter: Constant Loss Rate
+     Initial Value: 0.1
+     Minimum Constraint: 0.001
+     Maximum Constraint: 300.0000
+     Locked: No
+     Optimized Value: 0.0910981
+     Sensitivity: 0.00
+
+     Component: W1290
+     Parameter: Initial Loss
+     Initial Value: 9.0000
+     Minimum Constraint: 0.0010
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 2.6667
+     Sensitivity: 0.00
+
+     Component: W1290
+     Parameter: Storage Coefficient
+     Initial Value: 75.000
+     Minimum Constraint: 0.010
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 76.095
+     Sensitivity: -0.03
+
+     Component: W1290
+     Parameter: Time of Concentration
+     Initial Value: 133.33
+     Minimum Constraint: 0.1
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 125.49
+     Sensitivity: 0.05
+
+     Component: W1520
+     Parameter: Constant Loss Rate
+     Initial Value: 0.14519
+     Minimum Constraint: 0.00100
+     Maximum Constraint: 300.00000
+     Locked: No
+     Optimized Value: 0.14698
+     Sensitivity: -0.01
+
+     Component: W1520
+     Parameter: Initial Loss
+     Initial Value: 2
+     Minimum Constraint: 0.001
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 2.0302
+     Sensitivity: 0.00
+
+     Component: W1520
+     Parameter: Storage Coefficient
+     Initial Value: 50.246
+     Minimum Constraint: 0.01
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 50.984
+     Sensitivity: -0.04
+
+     Component: W1520
+     Parameter: Time of Concentration
+     Initial Value: 200.95
+     Minimum Constraint: 0.1
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 203.61
+     Sensitivity: -0.02
+
+     Component: W730
+     Parameter: Constant Loss Rate
+     Initial Value: 0.0967901
+     Minimum Constraint: 0.0010000
+     Maximum Constraint: 300.0000000
+     Locked: No
+     Optimized Value: 0.0910981
+     Sensitivity: 0.01
+
+     Component: W730
+     Parameter: Initial Loss
+     Initial Value: 4.0000
+     Minimum Constraint: 0.0010
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 6.0572
+     Sensitivity: 0.00
+
+     Component: W730
+     Parameter: Storage Coefficient
+     Initial Value: 33.333
+     Minimum Constraint: 0.010
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 9.8764
+     Sensitivity: 0.00
+
+     Component: W730
+     Parameter: Time of Concentration
+     Initial Value: 196
+     Minimum Constraint: 0.1
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 184.47
+     Sensitivity: 0.02
+
+     Component: W840
+     Parameter: Constant Loss Rate
+     Initial Value: 0.0430178
+     Minimum Constraint: 0.0010000
+     Maximum Constraint: 300.0000000
+     Locked: No
+     Optimized Value: 0.0404880
+     Sensitivity: 0.00
+
+     Component: W840
+     Parameter: Initial Loss
+     Initial Value: 5.0000
+     Minimum Constraint: 0.0010
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 1.4815
+     Sensitivity: 0.00
+
+     Component: W840
+     Parameter: Storage Coefficient
+     Initial Value: 33.333
+     Minimum Constraint: 0.010
+     Maximum Constraint: 150.0000
+     Locked: No
+     Optimized Value: 75.372
+     Sensitivity: -0.01
+
+     Component: W840
+     Parameter: Time of Concentration
+     Initial Value: 196.00
+     Minimum Constraint: 0.1
+     Maximum Constraint: 500.0000
+     Locked: No
+     Optimized Value: 198.94
+     Sensitivity: -0.01
+End:

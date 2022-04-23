@@ -1,0 +1,125 @@
+Gage Manager: BRAHMA_MOD_CLARK
+     Version: 4.2.1
+     Filepath Separator: /
+End:
+
+Gage: Precip Gage 15
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 07:53:20
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 2 January 2018
+       Last Variant Modified Time: 07:53:20
+       Default Variant: Yes
+       DSS File Name: BRAHMA_MOD_CLARK.dss
+       DSS Pathname: //Precip Gage 15/PRECIP-INC//15MIN/GAGE/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Precip Gage 19
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 07:53:20
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 2 January 2018
+       Last Variant Modified Time: 07:53:20
+       Default Variant: Yes
+       DSS File Name: BRAHMA_MOD_CLARK.dss
+       DSS Pathname: //Precip Gage 19/PRECIP-INC//15MIN/GAGE/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Precip Gage 2
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 07:53:20
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 2 January 2018
+       Last Variant Modified Time: 07:53:20
+       Default Variant: Yes
+       DSS File Name: BRAHMA_MOD_CLARK.dss
+       DSS Pathname: //Precip Gage 2/PRECIP-INC//15MIN/GAGE/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Precip Gage 4
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 07:53:20
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 2 January 2018
+       Last Variant Modified Time: 07:53:20
+       Default Variant: Yes
+       DSS File Name: BRAHMA_MOD_CLARK.dss
+       DSS Pathname: //Precip Gage 4/PRECIP-INC//15MIN/GAGE/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Precip Gage 7
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 07:53:20
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 2 January 2018
+       Last Variant Modified Time: 07:53:20
+       Default Variant: Yes
+       DSS File Name: BRAHMA_MOD_CLARK.dss
+       DSS Pathname: //Precip Gage 7/PRECIP-INC//15MIN/GAGE/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Q-BAHADURABAD
+     Description: DISCHARGE-DATA-BAHADURABAD(RATED)
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:54:32
+     Reference Height Units: Meters
+     Reference Height: 10.0
+     Gage Type: Flow
+     Units: M3/S
+     Data Type: INST-VAL
+     Data Source Type: Modifiable DSS
+     Variant: Variant-1
+       Last Variant Modified Date: 3 January 2018
+       Last Variant Modified Time: 15:37:11
+       Default Variant: Yes
+       DSS File Name: /home/nazmul/ModelWOrk/MOD-CLARK/DATA/DSS/DISCHARGE/Discharge.dss
+       DSS Pathname: /BRAHMAPUTRA/BAHADURABAD/FLOW/01JAN2006 - 31DEC2016/IR-DAY/RATED/
+       Start Time: 1 January 2000, 00:00
+       End Time: 2 January 2000, 00:00
+     End Variant: Variant-1
+End:

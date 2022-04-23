@@ -1,0 +1,17 @@
+Paired Data Manager: BRAHMA_MOD_CLARK
+     Version: 4.2.1
+     Filepath Separator: /
+End:
+
+Table: BAHADURABAD-WL-Q
+     Table Type: Stage-Flow
+     Description: BAHADURABAD-OBSERVED-DATA-WL-Q(2007-2017)
+     Last Modified Date: 4 January 2018
+     Last Modified Time: 07:07:55
+     X-Units: M
+     Y-Units: M3/S
+     Use External DSS File: NO
+     DSS File: BRAHMA_MOD_CLARK.dss
+     Pathname: //BAHADURABAD-WL-Q/STAGE-FLOW///TABLE/
+End:
+

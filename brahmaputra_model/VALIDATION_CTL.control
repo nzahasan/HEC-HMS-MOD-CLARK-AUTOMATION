@@ -1,0 +1,15 @@
+Control: VALIDATION-CTL
+     Description: CTL FILE FOR VALIDATION RUN
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 07:24:37
+     Version: 4.2.1
+     Time Zone ID: Asia/Dhaka
+     Time Zone GMT Offset: 21600000
+     Start Date: 1 January 2014
+     Start Time: 06:00
+     End Date: 31 December 2016
+     End Time: 06:00
+     Time Interval: 1440
+     Grid Write Interval: 1440
+     Grid Write Time Shift: 0
+End:

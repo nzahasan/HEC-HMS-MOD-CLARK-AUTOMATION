@@ -1,0 +1,10 @@
+NOTE 15301:  Began computing simulation run "CALIBRATION" at time 05Jan2018, 23:04:57.
+NOTE 10181:  Opened control specifications "CALIBRATION-CTL" at time 05Jan2018, 23:04:57.
+NOTE 20364:  Found no parameter problems in meteorologic model "CALIBRATION_VALIDATION".
+NOTE 40049:  Found no parameter problems in basin model "BRAHMA_MOD_CLARK".
+NOTE 40552:  Grid cell file contained 7 invalid cells for subbasin "W1520".  Lost area equals 0.05 KM2
+NOTE 40552:  Grid cell file contained 5 invalid cells for subbasin "W1060".  Lost area equals 0.04 KM2
+NOTE 40552:  Grid cell file contained 6 invalid cells for subbasin "W1290".  Lost area equals 0.03 KM2
+NOTE 40552:  Grid cell file contained 11 invalid cells for subbasin "W840".  Lost area equals 0.1 KM2
+NOTE 40552:  Grid cell file contained 5 invalid cells for subbasin "W730".  Lost area equals 0.02 KM2
+NOTE 15302:  Finished computing simulation run "CALIBRATION" at time 05Jan2018, 23:05:06.

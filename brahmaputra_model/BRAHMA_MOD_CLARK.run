@@ -1,0 +1,52 @@
+Run: CALIBRATION
+     Default Description: Yes
+     Log File: CALIBRATION.log
+     DSS File: CALIBRATION.dss
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 13:07:15
+     Last Execution Date: 5 January 2018
+     Last Execution Time: 17:04:57
+     Basin: BRAHMA_MOD_CLARK
+     Precip: CALIBRATION_VALIDATION
+     Control: CALIBRATION-CTL
+End:
+
+Run: VALIDATION
+     Default Description: Yes
+     Log File: VALIDATION.log
+     DSS File: VALIDATION.dss
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 07:25:11
+     Last Execution Date: 5 January 2018
+     Last Execution Time: 17:08:54
+     Basin: BRAHMA_MOD_CLARK
+     Precip: CALIBRATION_VALIDATION
+     Control: VALIDATION-CTL
+End:
+
+Run: FORECAST
+     Default Description: Yes
+     Log File: FORECAST.log
+     DSS File: FORECAST.dss
+     Last Modified Date: 3 January 2018
+     Last Modified Time: 17:51:25
+     Last Execution Date: 18 July 2018
+     Last Execution Time: 13:24:12
+     Basin: BRAHMA_MOD_CLARK
+     Precip: FORECAST
+     Control: FORECAST-CTL
+End:
+
+Run: ECORR
+     Default Description: Yes
+     Log File: ECORR.log
+     DSS File: ECORR.dss
+     Last Modified Date: 2 April 2018
+     Last Modified Time: 16:12:14
+     Last Execution Date: 2 April 2018
+     Last Execution Time: 17:22:34
+     Basin: BRAHMA_MOD_CLARK
+     Precip: CALIBRATION_VALIDATION
+     Control: ECORR-CTL
+End:
+

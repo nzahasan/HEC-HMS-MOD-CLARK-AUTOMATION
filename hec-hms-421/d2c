@@ -1,0 +1,51 @@
+from hec.script import *
+from hec.heclib.dss import *
+from hec.heclib.util import *
+from hec.io import *
+
+
+
+def main():
+	
+	dssFilePath = '<:_dss-file-path_:>'
+	outCsvPath = '<:_csv-path_:>'
+
+	dataPathName = 	"<:_data-path_:>"
+
+
+	dssFile = HecDss.open(dssFilePath)
+
+	tsCont = dssFile.get(dataPathName,1)
+
+	times = tsCont.times
+
+	values = tsCont.values
+
+	try:
+		valLen = len(values)
+	except:
+		print('Error 1: No records found.')
+		return -1
+
+	csvStr = ''
+
+	for i in range(len(times)):
+		timeOb = HecTime()
+		timeOb.set(0)
+		timeOb.addMinutes(times[i])
+
+
+		csvStr += timeOb.date(107).replace(" ","")+' '+timeOb.time()+','+str(values[i])+'\n'
+
+	open(outCsvPath,'w').write(csvStr)
+
+	dssFile.done()
+
+	return 0
+
+if __name__ == '__main__':
+	main()
+
+
+
+

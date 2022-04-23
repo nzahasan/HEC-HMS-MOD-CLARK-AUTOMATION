@@ -1,0 +1,13 @@
+Control: CALIBRATION-CTL
+     Description: CONTROL-CALIBRATION
+     Last Modified Date: 2 January 2018
+     Last Modified Time: 15:40:38
+     Version: 4.2.1
+     Start Date: 1 January 2010
+     Start Time: 06:00
+     End Date: 1 January 2014
+     End Time: 06:00
+     Time Interval: 1440
+     Grid Write Interval: 1440
+     Grid Write Time Shift: 0
+End:
